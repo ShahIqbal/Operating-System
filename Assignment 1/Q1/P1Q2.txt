@@ -1,0 +1,22 @@
+P1Q2
+
+Uniprogramming System - 
+A, B, C - Runs at 3ms, Waits for 10ms, Runs for 4ms
+A - 3ms + 10 ms + 4 ms = 17 ms
+B - 3ms + 10 ms + 4 ms = 17 ms
+C - 3ms + 10 ms + 4 ms = 17 ms
+
+Total = 17 ms + 17 ms + 17 ms = 51 ms
+All three programs will take 51 ms to complete in a uniprogramming system
+
+Multiprogramming system
+A, B, C - Runs at 3ms, Waits for 10ms, Runs for 4ms
+
+A    - run 3 ms  - - - - - Wait 10 ms - - - - -  + run 4 ms
+B    - wait 3ms + run 3 ms + - - - - - - Wait 10 ms - - - + run 4 ms
+C    - - - -wait 6 ms - - -+ run 3 ms + - - - - - wait 10 ms - - -  + run 4 ms
+
+All  - A Run 3ms + B run 3ms + C run 3ms + Wait 4ms(for A) + A run 4ms + B run 4ms + C run 4ms
+
+Total = A(3ms) + B(3ms) + C(3ms) + wait(4ms) + A(4ms) + B(4ms) + C(4ms) = 25 ms
+All three programs will take 25 ms to complete in a multiprogramming system

@@ -1,0 +1,9 @@
+
+P1Q1 - 
+
+Uniprogramming systems allows only one program to be present in memory at a time. This means since one program is only loaded the size in the
+memory is small as well. The single program that is present in the memory at the time gets access to all the resources. Whereas 
+in multiprogramming, multiple programs can be present in the memory at a given time. Resources are dynamically allocated and 
+size of the memory is much larger compared to uni programming. Time sharing is a logical extension of multiprogramming where time-sharing
+incorporates a technique where multiple users can log in a computer system at the same time to use it. The objective of this system is 
+to minimize response time. The operating system uses CPU scheduling and multiprogramming to provide each user with a small portion of a time.
